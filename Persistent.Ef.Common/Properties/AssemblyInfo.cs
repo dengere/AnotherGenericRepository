@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AnotherGenericRepository")]
+[assembly: AssemblyTitle("Persistent.Ef.Common")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AnotherGenericRepository")]
+[assembly: AssemblyProduct("Persistent.Ef.Common")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0bdc0dc9-9c5a-4082-a668-4b996e7af103")]
+[assembly: Guid("1f917995-d18e-4252-b4ac-9f900e94bf1b")]
 
 // Version information for an assembly consists of the following four values:
 //
