@@ -3,14 +3,19 @@
   <metadata>
     <id>Persistent.Ef.Common</id>
     <version>1.0.0</version>
+    <authors>Nuri Emmi</authors>
     <owners>Bilgera A.S.</owners>
     <projectUrl>https://github.com/dengere/AnotherGenericRepository</projectUrl>
     <iconUrl>http://icons.iconarchive.com/icons/icons8/windows-8/32/User-Interface-Nui-1-icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Common generic repository interfaces.</description>
     <tags>EF Repository</tags>
-    <dependencies>
-      <!--<dependency id="SampleDependency" version="1.0" />-->
-    </dependencies>
+<!--<dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies> -->
   </metadata>
+  <files>
+	<file src="bin\Debug\*.dll" target="lib\net46" /> 
+	<file src="bin\Debug\*.pdb" target="lib\net46" /> 
+ </files>
 </package>
