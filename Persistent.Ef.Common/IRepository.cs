@@ -15,9 +15,10 @@ namespace Persistent.Ef.Common
         IEnumerable<TEntity> Fetch(Expression<Func<TEntity, bool>> predicate);
         IEnumerable<TEntity> Fetch(Expression<Func<TEntity, bool>> predicate, Action<IOrderable<TEntity>> sortOrder);
         IEnumerable<TEntity> Fetch(Expression<Func<TEntity, bool>> predicate, Action<IOrderable<TEntity>> sortOrder, int pageIndex, int pageSize);
-        IQueryable<TEntity> AsQueryable(Expression<Func<TEntity, bool>> predicate);
+        IQueryable<TEntity> AsQueryable();
         int Count(Expression<Func<TEntity, bool>> predicate);
         bool Any(Expression<Func<TEntity, bool>> predicate);
         bool All(Expression<Func<TEntity, bool>> predicate);
+
     }
 }
