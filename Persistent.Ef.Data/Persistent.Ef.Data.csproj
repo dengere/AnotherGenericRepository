@@ -41,14 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DbContextBase.cs" />
-    <Compile Include="Orderable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Persistent.Ef.Common\Persistent.Ef.Common.csproj">
+    <ProjectReference Include="..\Persistent.Ef.Common\Persistent.Common.csproj">
       <Project>{1f917995-d18e-4252-b4ac-9f900e94bf1b}</Project>
-      <Name>Persistent.Ef.Common</Name>
+      <Name>Persistent.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
