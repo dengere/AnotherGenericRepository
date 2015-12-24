@@ -8,7 +8,16 @@ namespace Persistent.Ef.Data.Sample
     {
         static void Main(string[] args)
         {
-            FetchSample();
+            //FetchSample();
+            InsertSample();
+
+        }
+
+        private static void InsertSample()
+        {
+            using (BloggingContext context = new BloggingContext())
+            {
+            }
         }
 
         private static void FetchSample()

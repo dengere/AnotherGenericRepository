@@ -30,9 +30,8 @@ namespace Persistent.Ef.Data.Sample
         public virtual ICollection<Post> Post { get; set; }
     }
 
-    public partial class BloggingContext : DbContext, IDbContext
+    public partial class BloggingContext : DbContext
     {
-
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             options.UseSqlServer(@"Server=.;Database=Blogging;Trusted_Connection=True;");
