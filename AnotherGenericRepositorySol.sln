@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistent.Ef.Common", "Persistent.Ef.Common\Persistent.Ef.Common.csproj", "{1F917995-D18E-4252-B4AC-9F900E94BF1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistent.Common", "Persistent.Ef.Common\Persistent.Common.csproj", "{1F917995-D18E-4252-B4AC-9F900E94BF1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistent.Ef.Data", "Persistent.Ef.Data\Persistent.Ef.Data.csproj", "{D5D74D66-0502-477A-919C-A044C5DC0892}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistent.Ef.Data.Sample", "Persistent.Ef.Data.Sample\Persistent.Ef.Data.Sample.csproj", "{F550E3D3-A1D4-4FA9-A270-3FA403DAE1BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistent.Common.Ef.Example", "Persistent.Common.Ef.Example\Persistent.Common.Ef.Example.csproj", "{35563473-3B24-4139-AE3A-183B80CD56BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +17,10 @@ Global
 		{1F917995-D18E-4252-B4AC-9F900E94BF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F917995-D18E-4252-B4AC-9F900E94BF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F917995-D18E-4252-B4AC-9F900E94BF1B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5D74D66-0502-477A-919C-A044C5DC0892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5D74D66-0502-477A-919C-A044C5DC0892}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5D74D66-0502-477A-919C-A044C5DC0892}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5D74D66-0502-477A-919C-A044C5DC0892}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F550E3D3-A1D4-4FA9-A270-3FA403DAE1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F550E3D3-A1D4-4FA9-A270-3FA403DAE1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F550E3D3-A1D4-4FA9-A270-3FA403DAE1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F550E3D3-A1D4-4FA9-A270-3FA403DAE1BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35563473-3B24-4139-AE3A-183B80CD56BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35563473-3B24-4139-AE3A-183B80CD56BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35563473-3B24-4139-AE3A-183B80CD56BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35563473-3B24-4139-AE3A-183B80CD56BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

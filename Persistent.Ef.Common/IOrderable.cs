@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Persistent.Ef.Common
+namespace Persistent.Common
 {
     public interface IOrderable<T> where T : class, new()
     {

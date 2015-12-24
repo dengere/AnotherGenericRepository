@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace Persistent.Ef.Common
+namespace Persistent.Common
 {
     public interface ICreateUpdateDelete<TEntity> where TEntity : class
     {

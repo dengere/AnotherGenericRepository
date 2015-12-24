@@ -1,12 +1,11 @@
-﻿using Persistent.Ef.Common;
-using System;
+﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Persistent.Ef.Data
+namespace Persistent.Common
 {
     public class Orderable<T> : IOrderable<T>
-        where T : class, new()
+       where T : class, new()
     {
         private IQueryable<T> _queryable;
         public Orderable(IQueryable<T> queryable)

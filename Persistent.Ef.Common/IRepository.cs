@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Persistent.Ef.Common
+namespace Persistent.Common
 {
     public interface IRepository<TEntity>
         where TEntity : class, new()

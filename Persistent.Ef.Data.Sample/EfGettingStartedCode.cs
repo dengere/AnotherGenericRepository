@@ -1,10 +1,6 @@
-﻿using Microsoft.Data.Entity;
-using Persistent.Ef.Common;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Persistent.Ef.Data.Sample
 {
@@ -32,23 +28,10 @@ namespace Persistent.Ef.Data.Sample
 
     public partial class BloggingContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder options)
-        {
-            options.UseSqlServer(@"Server=.;Database=Blogging;Trusted_Connection=True;");
-        }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Blog>(entity =>
-            {
-                entity.Property(e => e.Url).IsRequired();
-            });
-
-            modelBuilder.Entity<Post>(entity =>
-            {
-                entity.HasOne(d => d.Blog).WithMany(p => p.Post).HasForeignKey(d => d.BlogId);
-            });
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder options)
+        //{
+        //    options.UseSqlServer(@"Server=.;Database=Blogging;Trusted_Connection=True;");
+        //}
 
         public IQueryable<TEntity> Queryable<TEntity>() where TEntity : class
         {

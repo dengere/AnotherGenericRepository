@@ -1,14 +1,15 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Persistent.Common")]
+[assembly: AssemblyTitle("Persistent.Common.Ef.Example")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Bilgera A.S.")]
-[assembly: AssemblyProduct("Persistent.Common")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Persistent.Common.Ef.Example")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1f917995-d18e-4252-b4ac-9f900e94bf1b")]
+[assembly: Guid("35563473-3b24-4139-ae3a-183b80cd56be")]
 
 // Version information for an assembly consists of the following four values:
 //
