@@ -65,6 +65,16 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Persistent.Common.Ef\Persistent.Common.Ef.csproj">
+      <Project>{ab312a8a-17a5-4bec-8ba4-8233c1181e11}</Project>
+      <Name>Persistent.Common.Ef</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Persistent.Ef.Common\Persistent.Common.csproj">
+      <Project>{1f917995-d18e-4252-b4ac-9f900e94bf1b}</Project>
+      <Name>Persistent.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

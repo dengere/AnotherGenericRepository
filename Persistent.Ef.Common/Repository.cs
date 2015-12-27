@@ -82,5 +82,10 @@ namespace Persistent.Common
         {
             return AsQueryable().SingleOrDefault(predicate);
         }
+
+        public IEnumerable<TEntity> Fetch()
+        {
+            return AsQueryable();
+        }
     }
 }

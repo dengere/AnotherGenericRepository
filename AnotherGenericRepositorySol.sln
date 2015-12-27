@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistent.Common", "Persis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistent.Common.Ef.Example", "Persistent.Common.Ef.Example\Persistent.Common.Ef.Example.csproj", "{35563473-3B24-4139-AE3A-183B80CD56BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistent.Common.Ef", "Persistent.Common.Ef\Persistent.Common.Ef.csproj", "{AB312A8A-17A5-4BEC-8BA4-8233C1181E11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{35563473-3B24-4139-AE3A-183B80CD56BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35563473-3B24-4139-AE3A-183B80CD56BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35563473-3B24-4139-AE3A-183B80CD56BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB312A8A-17A5-4BEC-8BA4-8233C1181E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB312A8A-17A5-4BEC-8BA4-8233C1181E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB312A8A-17A5-4BEC-8BA4-8233C1181E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB312A8A-17A5-4BEC-8BA4-8233C1181E11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

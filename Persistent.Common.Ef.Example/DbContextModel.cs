@@ -1,20 +1,23 @@
 namespace Persistent.Common.Ef.Example
 {
+    using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity;
+    using System.Linq;
 
-    public partial class BlogDbContext : DbContext
+    public partial class BlogDbContext : DbContextBase
     {
         public BlogDbContext()
-            : base("name=ExampleDbConn")
+            : base("ExampleDbConn")
         {
         }
 
 
         public virtual DbSet<Blog> Blogs { get; set; }
         public virtual DbSet<Post> Posts { get; set; }
+
 
     }
 

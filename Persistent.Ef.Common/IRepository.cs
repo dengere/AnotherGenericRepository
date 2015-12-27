@@ -12,6 +12,7 @@ namespace Persistent.Common
         TEntity Single(Expression<Func<TEntity, bool>> predicate);
         TEntity FirstOrDefault(Expression<Func<TEntity, bool>> predicate);
         TEntity First(Expression<Func<TEntity, bool>> predicate);
+        IEnumerable<TEntity> Fetch();
         IEnumerable<TEntity> Fetch(Expression<Func<TEntity, bool>> predicate);
         IEnumerable<TEntity> Fetch(Expression<Func<TEntity, bool>> predicate, Action<IOrderable<TEntity>> sortOrder);
         IEnumerable<TEntity> Fetch(Expression<Func<TEntity, bool>> predicate, Action<IOrderable<TEntity>> sortOrder, int pageIndex, int pageSize);
