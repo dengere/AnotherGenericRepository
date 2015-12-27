@@ -38,6 +38,10 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Persistent.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Persistent.Common.1.1.0\lib\net46\Persistent.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -51,12 +55,6 @@
   <ItemGroup>
     <Compile Include="DbContextBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Persistent.Ef.Common\Persistent.Common.csproj">
-      <Project>{1f917995-d18e-4252-b4ac-9f900e94bf1b}</Project>
-      <Name>Persistent.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
