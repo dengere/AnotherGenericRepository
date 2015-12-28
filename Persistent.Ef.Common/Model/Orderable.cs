@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Persistent.Common
+namespace Persistent.Common.Model
 {
     public class Orderable<T> : IOrderable<T>
        where T : class, new()

@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Persistent.Common
+namespace Persistent.Common.Model
 {
     public class Repository<TEntity> : IRepository<TEntity>
            where TEntity : class, new()

@@ -30,14 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="EntityEntry.cs" />
+    <None Include="Features_NoCompile.cs" />
     <Compile Include="ICreateUpdateDelete.cs" />
     <Compile Include="IDbContext.cs" />
     <Compile Include="IOrderable.cs" />
     <Compile Include="IRepository.cs" />
-    <Compile Include="Orderable.cs" />
+    <Compile Include="Model\Orderable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository.cs" />
+    <Compile Include="Model\Repository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Package.nuspec" />
